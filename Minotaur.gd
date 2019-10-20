@@ -60,8 +60,8 @@ func _physics_process(delta):
 			print("target_pos:")
 			print(target_pos)
 			is_moving = true
-		else:
-			grid.collide(self, 
+		
+			
 	elif is_moving:
 		speed = MAX_SPEED
 		var velocity = speed * target_direction * delta
